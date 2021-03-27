@@ -23,7 +23,7 @@ if everything is up to date with the latest version that vercheck can find.
 The quickest way to get going:
 
 ```
-docker run aviregistry.azurecr.io/terraform-vercheck:latest -h
+docker run ahraza/terraform-vercheck:latest -h
 ```
 
 The only things you need are:
@@ -44,7 +44,7 @@ docker run \
   -v ${TF_PLAN_DIR}:/plan/ \
   -v ${SSH_DIR}:/root/.ssh/ \
   -v ${OUTPUT_DIR}:/out/ \
-  aviregistry.azurecr.io/terraform-vercheck:latest \
+  ahraza/terraform-vercheck:latest \
   -key /root/.ssh/${SSH_FILE_NAME} -directory /plan/ \
   -graph /out/graph.dot -log /out/vercheck.log
 ```
