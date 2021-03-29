@@ -8,6 +8,8 @@ Currently supported:
 
 ## Details
 
+![terraform vercheck digraph](demo.png)
+
 Terraform-vercheck parses a terraform plan in a given directory and builds a
 directed graph of the submodules and providers.
 
@@ -16,7 +18,6 @@ file representing the graph.
 
 It will have an exit code of 0
 if everything is up to date with the latest version that vercheck can find.
-
 
 ## Usage
 
