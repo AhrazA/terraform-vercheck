@@ -1,5 +1,5 @@
 # *WARNING* - Do not modify `VERSION` manually. It is managed bu `bumpversion`.
-VERSION = 1.0.1
+VERSION = 1.0.2
 
 BUILD_DIR = build
 DOCKER_IMAGE_NAME = ahraza/terraform-vercheck
